@@ -19,7 +19,7 @@ public class Address {
 
     @Id
     @Column("ADDRESS_ID")
-    private UUID uuid;
+    private UUID addressId;
 
     @Column("COUNTRY")
     private String country;
