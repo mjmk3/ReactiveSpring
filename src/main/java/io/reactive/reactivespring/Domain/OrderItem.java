@@ -10,6 +10,6 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table("INVOICE_ITEM")
+@Table("ORDER_ITEM")
 public class OrderItem {
 }
