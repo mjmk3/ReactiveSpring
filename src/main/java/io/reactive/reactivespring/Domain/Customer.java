@@ -31,10 +31,10 @@ public class Customer {
     private String lastName;
 
     @Column("COUNTRY_CODE")
-    private Integer countryCode;
+    private Long countryCode;
 
     @Column("PHONE_NUMBER")
-    private Integer phoneNumber;
+    private Long phoneNumber;
 
     @Column("EMAIL")
     private String email;

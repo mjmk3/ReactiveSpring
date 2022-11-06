@@ -30,7 +30,7 @@ public class Driver {
     private String dailyCapacity;
 
     @Column("DELIVERED_ORDERS")
-    private Integer deliveredOrders;
+    private Long deliveredOrders;
 
     @Column("EMPLOYEE_DRIVER_ID")
     private UUID employeeId;
