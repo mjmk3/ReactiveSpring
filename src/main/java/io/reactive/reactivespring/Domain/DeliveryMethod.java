@@ -20,4 +20,10 @@ public class DeliveryMethod {
     @Id
     @Column("DELIVERY_METHOD_ID")
     private UUID deliveryMethodId;
+
+    @Column("DELIVERY_METHOD_TITLE")
+    private String deliveryMethodTitle;
+
+    @Column("DELIVERY_METHOD_DESCRIPTION")
+    private String deliveryMethodDescription;
 }
