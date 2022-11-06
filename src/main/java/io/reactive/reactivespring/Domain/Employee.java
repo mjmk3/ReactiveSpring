@@ -10,6 +10,6 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table("DELIVERY_METHOD")
-public class DeliveryMethod {
+@Table("EMPLOYEE")
+public class Employee {
 }
