@@ -30,6 +30,9 @@ public class Payment {
     @Column("AMOUNT_LOCAL_CURRENCY")
     private String amountLocalCurrency;
 
-    @Column("CARD_ID")
-    private UUID cardId;
+    @Column("CREDIT_CARD_ID")
+    private UUID creditCardId;
+
+    @Column("GIFT_CARD_ID")
+    private UUID giftCardId;
 }
